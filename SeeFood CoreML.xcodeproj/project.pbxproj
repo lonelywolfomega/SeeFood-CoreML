@@ -14,6 +14,7 @@
 		E3129363257D38D8003893EE /* SeeFood_CoreML.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E3129361257D38D8003893EE /* SeeFood_CoreML.xcdatamodeld */; };
 		E3129365257D38DA003893EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3129364257D38DA003893EE /* Assets.xcassets */; };
 		E3129368257D38DA003893EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3129366257D38DA003893EE /* LaunchScreen.storyboard */; };
+		E3129371257D39C1003893EE /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = E3129370257D39C1003893EE /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		E3129364257D38DA003893EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3129367257D38DA003893EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3129369257D38DA003893EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3129370257D39C1003893EE /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				E3129364257D38DA003893EE /* Assets.xcassets */,
 				E3129366257D38DA003893EE /* LaunchScreen.storyboard */,
 				E3129369257D38DA003893EE /* Info.plist */,
+				E3129370257D39C1003893EE /* Inceptionv3.mlmodel */,
 				E3129361257D38D8003893EE /* SeeFood_CoreML.xcdatamodeld */,
 			);
 			path = "SeeFood CoreML";
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3129371257D39C1003893EE /* Inceptionv3.mlmodel in Sources */,
 				E312935D257D38D8003893EE /* ViewController.swift in Sources */,
 				E3129363257D38D8003893EE /* SeeFood_CoreML.xcdatamodeld in Sources */,
 				E3129359257D38D8003893EE /* AppDelegate.swift in Sources */,
